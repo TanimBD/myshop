@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+import 'home_page.dart';
+
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: HomePage(),
+      routes: {
+        '/customers': (context) => CustomersScreen(),
+        '/suppliers': (context) => SuppliersScreen(),
+        '/products': (context) => ProductsScreen(),
+        '/pos': (context) => POScreen(),
+        '/expense': (context) => ExpenseScreen(),
+        '/orders': (context) => OrdersScreen(),
+      },
+    );
+  }
+}
