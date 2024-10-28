@@ -59,6 +59,7 @@ flutter:
     - assets/images/pos_image.png
     - assets/images/expense_image.png
     - assets/images/order_image.png
+    - assets/images/myshop.png
 
 
   # The following line ensures that the Material Icons font is
