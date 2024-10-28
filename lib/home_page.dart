@@ -6,6 +6,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('ONLINE SOFT SELL'),
+
         backgroundColor: Colors.green,
         actions: [
           Padding(

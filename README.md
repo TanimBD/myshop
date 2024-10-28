@@ -1,7 +1,7 @@
 # myshop
 
 A new Flutter project.
-
+![screenshot](assets/images/myshop.png)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
